@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gameboardonline-dev-144052-authRole",
+      "UnauthRoleArn": "arn:aws:iam::613922475021:role/amplify-gameboardonline-dev-144052-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::613922475021:role/amplify-gameboardonline-dev-144052-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-gameboardonline-dev-144052-deployment",
+      "UnauthRoleName": "amplify-gameboardonline-dev-144052-unauthRole",
+      "StackName": "amplify-gameboardonline-dev-144052",
+      "StackId": "arn:aws:cloudformation:us-east-1:613922475021:stack/amplify-gameboardonline-dev-144052/c5e57dd0-260b-11ec-b8e5-0a0575ffedcb",
+      "AmplifyAppId": "d2lt66gg51etab"
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gameboardonline-test-144329-authRole",
+      "UnauthRoleArn": "arn:aws:iam::613922475021:role/amplify-gameboardonline-test-144329-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::613922475021:role/amplify-gameboardonline-test-144329-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-gameboardonline-test-144329-deployment",
+      "UnauthRoleName": "amplify-gameboardonline-test-144329-unauthRole",
+      "StackName": "amplify-gameboardonline-test-144329",
+      "StackId": "arn:aws:cloudformation:us-east-1:613922475021:stack/amplify-gameboardonline-test-144329/227ec880-260c-11ec-9566-0a0d0273a29f",
+      "AmplifyAppId": "d2lt66gg51etab"
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gameboardonline-prod-144552-authRole",
+      "UnauthRoleArn": "arn:aws:iam::613922475021:role/amplify-gameboardonline-prod-144552-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::613922475021:role/amplify-gameboardonline-prod-144552-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-gameboardonline-prod-144552-deployment",
+      "UnauthRoleName": "amplify-gameboardonline-prod-144552-unauthRole",
+      "StackName": "amplify-gameboardonline-prod-144552",
+      "StackId": "arn:aws:cloudformation:us-east-1:613922475021:stack/amplify-gameboardonline-prod-144552/77db3340-260c-11ec-a285-0a308968b459",
+      "AmplifyAppId": "d2lt66gg51etab"
+    }
+  }
+}
