@@ -1,0 +1,32 @@
+
+type Room @model {
+  id: ID!
+  title: String!
+  messages: [Message] @connection(keyName: "byRoom", fields: ["id"])
+}
+
+type Message @model @key(name: "byRoom", fields: ["roomID", "content"]) {
+  id: ID!
+  roomID: ID!
+  room: Room @connection(fields: ["roomID"])
+  playerID: ID!
+  player: Player @connection(fields: ["playerID"])
+  content: String!
+}
+
+type Match @model @key(name: "byUsers", fields: ["matchOwner", "matchTitle"]) {
+  id: ID!
+  matchTitle: String!
+  matchOwner: String!
+  players: [Player] @connection(keyName: "byMatch", fields: ["id"])
+}
+
+type Player @model
+@key(name: "byMatch", fields: ["matchID", "nickname"])
+@key(name: "byUser", fields: ["user", "nickname"]) {
+  id: ID!
+  matchID: ID!
+  match: Match @connection(fields: ["matchID"])
+  user: String!
+  nickname: String
+}
